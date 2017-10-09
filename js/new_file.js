@@ -1,21 +1,9 @@
- 
-var script = document.createElement('script');
-script.src = '../WebApp/new_file.js';
-script.type = 'text/javascript';
- 
- $(function() {
-  setTimeout(hideSplash, 2000);
-}); 
-
-
-function init() {
-	hideSplash();
+/* Set the width of the side navigation to 250px */
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
 }
-// $(window).on("pagecontainerload",function hideSplash() {
-	// //setTimeout(hideSplash, 2000);
-  // $.mobile.changePage("MenuScreen.html", "fade");
-// });
-var hideSplash = function(){
-	setTimeout(2000);
-	$.mobile.changePage("MenuScreen.html", "fade");
-};
+
+/* Set the width of the side navigation to 0 */
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
