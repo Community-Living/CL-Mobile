@@ -126,3 +126,10 @@
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
 }
+
+.menu{
+    width: 35px;
+    height: 5px;
+    background-color: #FFFFFF;
+    margin: 6px 0;
+}
