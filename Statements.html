@@ -5,30 +5,43 @@
     <title>Statements</title>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
-<link rel="stylesheet" href="css/stylesheet.css" device="handheld"/>
-<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-
+	<link rel="stylesheet" href="css/stylesheet.css" device="handheld"/>
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
     <script type="text/javascript" src="js/new_file.js"> </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
 <body>
-<div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="#">Statements</a>
-  <a href="#">Strategies</a>
-  <a href="#">Definitions</a>
-  <a href="#">Resources</a>
-  <a href="#">About Me</a>
+
+<div data-role="page" class="jqm-demos" id="panel-fixed-page1" data-title="Statements" data-url="panel-fixed-page1">
+    <div data-role="header"data-position="fixed" class="ui-nodisc-icon">
+        <a href="#to-link" data-icon="back" data-iconpos="notext">Back</a>
+        <a href="#add-form" data-icon="bars" data-iconpos="notext">Menu</a>
+    </div><!-- /header -->
+    <div role="main" class="ui-content-new">
+		<div class = "boxcontainer">
+			<img src="/images/About Me.png" />
+			<p>I want more choice and control in my life, but I don't know how to do it</p>
+			<input type="button" data-inline="true" value="VIEW RESPONSE" data-wrapper-class="center_BTN"/>
+	</div>       
+    
+		<div class = "boxcontainer">
+			<img src="/images/About Me.png" />
+			<p>I want to move out of my family home, but don't know where to start</p>
+			<input type="button" data-inline="true" value="VIEW RESPONSE" data-wrapper-class="center_BTN"/>
+		</div>       
+    
+		<div class = "boxcontainer">
+			<img src="/images/About Me.png" />
+			<p>I want more choice and control in my life, but I don't like my staff or my support will not support me to do it</p>
+			<input type="button" data-inline="true" value="VIEW RESPONSE" data-wrapper-class="center_BTN"/>
+		</div>       
+    
+<div data-role="panel" data-position="right" data-position-fixed="true" data-display="overlay" data-theme="a" id="add-form">
+        
+    </div><!-- /panel -->
+<div id="to-link"><a href="MenuScreen.html"></a></div>
 </div>
-
-<!-- Use any element to open the sidenav -->
-<span onclick="openNav()"><div class="menu"></div>
-						<div class="menu"></div>
-						<div class="menu"></div>
-</span>
-
-<!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
-<div id="main" bgcolor="#8F79B2">
-  ...
 </div>
 </body>
 </html>
