@@ -174,6 +174,15 @@
     border-color:gray;
 }
 
+.stmtimg{
+	width: 100%;
+    height: 125px;
+    border-radius: 15px;
+}
+
+p.small{
+	line-height:80%;
+}
 .center_BTN {
     text-align:center;
     background-color:transparent !important;
